@@ -1,0 +1,80 @@
+.city-essentials {
+    width: min(100% - 48px, 1440px);
+    margin: 0 auto;
+    padding: clamp(80px, 9vw, 135px) 0;
+  }
+  
+  .city-essentials__heading {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  
+  .city-essentials__eyebrow {
+    margin: 0 0 20px;
+    color: rgba(16, 16, 16, 0.53);
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  
+  .city-essentials__heading h2 {
+    margin: 0;
+    font-family: var(--font-editorial);
+    font-size: clamp(4.8rem, 8vw, 8.5rem);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    line-height: 0.72;
+  }
+  
+  .city-essentials__heading-copy {
+    max-width: 380px;
+  }
+  
+  .city-essentials__heading-copy p {
+    margin: 0;
+    color: rgba(16, 16, 16, 0.63);
+    font-size: 0.84rem;
+    line-height: 1.7;
+  }
+  
+  .city-essentials__heading-copy a {
+    margin-top: 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #101010;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 820px) {
+    .city-essentials {
+      width: 100%;
+    }
+  
+    .city-essentials__heading {
+      padding: 0 24px;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 35px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .city-essentials__heading {
+      padding: 0 20px;
+    }
+  
+    .city-essentials__heading h2 {
+      font-size: 5rem;
+    }
+  }

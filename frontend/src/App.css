@@ -1,0 +1,19 @@
+.app {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  overflow-x: clip;
+  overflow-y: visible;
+  color: #101010;
+  background: #faf9f6;
+}
+
+.app__main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 100vh;
+  overflow-x: clip;
+  overflow-y: visible;
+}

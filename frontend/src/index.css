@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;900&family=Permanent+Marker&display=swap");
+
+:root {
+  font-family: "Inter", Arial, sans-serif;
+  color: #101010;
+  background: #faf9f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --color-cream: #faf9f6;
+  --color-paper: #eeeae2;
+  --color-black: #101010;
+  --color-yellow: #ffe500;
+  --color-border: rgba(16, 16, 16, 0.12);
+
+  --font-editorial:
+    "Instrument Serif",
+    Georgia,
+    serif;
+
+  --font-hand:
+    "Caveat",
+    cursive;
+
+  --font-marker:
+    "Permanent Marker",
+    cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video,
+svg,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+main,
+section,
+header,
+footer,
+nav,
+div {
+  min-width: 0;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  overflow-x: clip;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  overflow-x: clip;
+  color: var(--color-black);
+  background: var(--color-cream);
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.font-hand {
+  font-family: var(--font-hand);
+}
